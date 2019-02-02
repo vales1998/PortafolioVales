@@ -1,0 +1,185 @@
+body{
+    background:#B5D3E7;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Header-grande{
+    width: 100%;
+    height: 550px;
+    background: url(../imagenes/venezuela.jpg);
+}
+
+.Header-grande h1{
+    font-size: 80px;
+    padding-top: 150px;
+    color: #000000;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+
+
+.Header-grande h2{
+    font-size: 25px;
+    vertical-align: 30px;
+    color:black;
+    font-family: 'Staatliches', cursive;
+    text-align: top;
+    text-align: center;
+}
+
+
+.Bienvenido h1{
+    font-family: 'Pacifico', cursive;
+}
+
+.item-sobre-mi img{
+    width: 100%;
+}
+
+.sobre-mi img{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sobre-mi h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+}
+
+.sobre-mi-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-sobre-mi{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+.texto-sobre-mi{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+
+    background: rgba(0,0,0,0.7 );
+    color: #ffffff;
+
+    transform: translateY(100%);
+    transition: all 0.5s ease-out;
+
+    
+}
+
+.texto-sobre-mi p {
+    text-align: justify;
+}
+
+.item-sobre-mi:hover .texto-sobre-mi{
+    transform: translateY(0%);
+}
+
+
+.mis-proyectos h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+}
+
+.mis-proyectos p{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.mis-skills {
+
+    background-color:#7cb342; 
+
+
+}
+.mis-skills h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 38px;
+    margin: 15px 0px 40px;
+
+}
+
+
+.mis-skills li{
+
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    vertical-align: 30px;
+}
+
+
+
+.mis-proyectos img {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer{
+    background:#B5D3E7;
+    text-align: center;
+}
+
+.instagram{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(11, 103, 165);
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000000;
+    justify-content: space-between;
+    text-align: center;
+}
+.Facebook{
+text-decoration: none;
+font-weight: 600;
+font-size: 20px;
+color: #000000;
+padding-left: 40px;
+padding-right: 40px;
+background-color:rgb(11, 103, 164); 
+justify-content: space-between;
+text-align: center;
+}
+
+.github{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(11, 103, 164); 
+    justify-content: space-between;
+    text-align: center;
+    }
+   
+
+.email{
+
+ text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(11, 103, 165);
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000000;
+    justify-content: space-between;
+    text-align: center;
+}
